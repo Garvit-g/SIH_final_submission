@@ -1,0 +1,32 @@
+.container{
+    padding: 60px 80px;
+  }
+  .leaf{
+    height: 50px;
+    width: 100px;
+    background-color: #f6b704;
+    border-radius: 50px 50px 0 0;
+    position: relative;
+  }
+  
+  .leaf::after{
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 50px;
+    background-color: #e54335;
+    left: 100px;
+    top: -50px;
+    border-radius: 0 50px 50px 0;
+  }
+  
+  .mirror{
+    transform: rotateZ(180deg);
+    left: 100px;
+    background-color: #4280ef;
+  }
+  
+  .mirror::after{
+    
+    background-color: #34a353;
+  }

@@ -1,0 +1,15 @@
+.break{
+    background-color: rgba(125, 250, 250);
+}
+h1{
+    text-align: center;
+}
+
+table  .inner{
+    border-right:  0.5px solid black;
+    border-collapse: collapse;   
+
+}
+.lab{
+    background-color: lightcoral;
+}
